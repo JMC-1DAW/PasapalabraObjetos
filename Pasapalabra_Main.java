@@ -1,25 +1,36 @@
 package pasapalabraObjetos;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Pasapalabra_Main {
 
 	private static final Scanner teclado = new Scanner(System.in);
 	
-	private static final int QUESTIONAMOUNT = 5;
+	private static final QuestionBundle preguntas = new QuestionBundle();
+	
+	private static final Random BUNDLE = new Random();
+	
+	private static final int QUESTIONAMOUNT = 26;
 	
 	public static void main(String[] args) {
 
 		//TODO (Añadir un temporizador)
-		//TODO (Añadir todo el abecedario)
 		
 		Pregunta[] pasapalabra = new Pregunta[QUESTIONAMOUNT];
 		
-		pasapalabra[0] = new Pregunta("Ave de gran tamaño.", "Avestruz", 'A');
-		pasapalabra[1] = new Pregunta("Mamífero pequeño recubierto de púas.", "Erizo", 'E');
-		pasapalabra[2] = new Pregunta("Reptil normalmente mantenido como mascota.", "Iguana", 'I');
-		pasapalabra[3] = new Pregunta("Mamífero de gran tamaño", "Oso", 'O');
-		pasapalabra[4] = new Pregunta("Animal ficticio asociado con la magia.", "Unicornio", 'U');
+		int bundleChoice;
+		
+		for (int i = 0; i < QUESTIONAMOUNT; i++) {
+			bundleChoice = BUNDLE.nextInt(2) + 1;
+			
+			if (bundleChoice == 1) {
+				pasapalabra[i] = new Pregunta(preguntas.qBundle1[i], preguntas.aBundle1[i], preguntas.alphabet[i]);
+			} else if (bundleChoice == 2) {
+				pasapalabra[i] = new Pregunta(preguntas.qBundle2[i], preguntas.aBundle2[i], preguntas.alphabet[i]);
+			}
+			
+		}
 		
 		String answer;
 		int answereds = 0;
