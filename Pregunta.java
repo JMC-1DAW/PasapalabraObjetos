@@ -34,12 +34,16 @@ public class Pregunta {
 		if (answer.equals("Pasapalabra")) {
 			System.out.println("Pasapalabra!");
 			estado = 'P';
+			System.out.println(" ");
 		} else if (answer.equals(respuesta)) {
 			System.out.println("Correcto!");
 			estado = 'R';
+			System.out.println(" ");
 		} else {
 			System.err.println("Incorrecto!");
+			System.err.println("La respuesta era " + respuesta);
 			estado = 'W';
+			System.out.println(" ");
 		}
 		
 	}

@@ -22,12 +22,14 @@ public class Pasapalabra_Main {
 		int bundleChoice;
 		
 		for (int i = 0; i < QUESTIONAMOUNT; i++) {
-			bundleChoice = BUNDLE.nextInt(2) + 1;
+			bundleChoice = BUNDLE.nextInt(3) + 1;
 			
 			if (bundleChoice == 1) {
 				pasapalabra[i] = new Pregunta(preguntas.qBundle1[i], preguntas.aBundle1[i], preguntas.alphabet[i]);
 			} else if (bundleChoice == 2) {
 				pasapalabra[i] = new Pregunta(preguntas.qBundle2[i], preguntas.aBundle2[i], preguntas.alphabet[i]);
+			} else if (bundleChoice == 3) {
+				pasapalabra[i] = new Pregunta(preguntas.qBundle3[i], preguntas.aBundle3[i], preguntas.alphabet[i]);
 			}
 			
 		}

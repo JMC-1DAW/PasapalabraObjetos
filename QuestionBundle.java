@@ -16,8 +16,7 @@ public class QuestionBundle {
 			"Mamífero similar al caballo, usado para el transporte de recursos.",
 			"Mamífero marino reconocido por su característico cuerno.", "Mamífero grande, normalmente omnívoro.",
 			"Ave polar que no puede volar.", "Una subespecie extinta de la zebra.",
-			"Roedor pequeño, conocido popularmente por comer queso.",
-			"Reptil carnívoro largo, conocido normalmente como un animal venenoso.",
+			"Roedor pequeño, conocido popularmente por comer queso.", "Reptil carnívoro largo, normalmente venenoso.",
 			"Felino salvaje reconocido por las rayas negras que cubren su cuerpo.",
 			"Animal ficticio asociado con la magia.", "Mamífero usado en la ganadería por su carne y su leche.",
 			"Marsupial noturno que suele aplastar a sus depredadores contra el techo de su madriguera.",
@@ -50,5 +49,32 @@ public class QuestionBundle {
 	public String[] aBundle2 = { "Avión", "Bomba", "Cañón", "Diario", "Esquirla", "Foco", "Gema", "Helicóptero",
 			"Iglesia", "Jabalina", "Kayak", "Lava", "Mausoleo", "Nieve", "Ovni", "Puerta", "Quiosco", "Roca", "Sierra",
 			"Tienda", "Urna", "Veta", "Wifi", "Xilófono", "Yate", "Zapato" };
+
+	// Bundle about food.
+	public String[] qBundle3 = { "Alimento que consiste en un conjunto de granos blancos.",
+			"Vegetal largo de color morado.",
+			"Alimento sólido o líquido extremadamente dulce, popular entre los niños.",
+			"Un bollo dulce redondo con un agujero en el centro.",
+			"Alimento que consiste de hojas verdes crujientes, conocido popularmente como la comida de Popeye",
+			"Postre gelatinoso amarillento.", "Alimento dulce, normalmente redondo y crujiente",
+			"Alimento producido por la gallina.", "Fruta similar al durazno pero más pequeña.",
+			"Alimento típico español que consiste en finas láminas de pata de cerdo.",
+			"Fruta peluda con el interior verde, comparte nombre con un pájaro.",
+			"Líquido blanco proveniente de la vaca y otros animales.",
+			"Fruta roja, una de las mas populares siendo tambien el icono de una marca muy cononcida.",
+			"Fruta redonda que tiene el mismo nombre que su color.",
+			"Condimento normalmente usado en la comida italiana.",
+			"Alimento muy popular, de origen italiano, que consiste en un disco con varios añadidos encima.",
+			"Alimento popular creado por la fermentación", "Pez conocido por la firmeza y jugosidad de su carne.",
+			"Fruta de gran tamaño, de exterior verde e interior rojo, conocida como la fruta con más contenido de agua.",
+			"Bebida que consiste de agua caliente con hierbas que le dan el sabor.",
+			"Fruta que crece en rácimos y se suele consumir sobre todo en año nuevo.",
+			"Líquido amargo proveniente de la fermentación.", "Condimento extremadamente picante popular en japón.",
+			"Otra manera de llamar al ciruelo.", "Alimento cremoso consumido como postre.",
+			"Alimento alargado de color naranja" };
+
+	public String[] aBundle3 = { "Arroz", "Berenjena", "Caramelo", "Donut", "Espinaca", "Flan", "Galleta", "Huevo",
+			"Icaco", "Jamón", "Kiwi", "Leche", "Manzana", "Naranja", "Orégano", "Pizza", "Queso", "Rape", "Sierra",
+			"Té", "Uva", "Vinagre", "Wasabi", "Ximenia", "Yogurt", "Zanahoria" };
 
 }

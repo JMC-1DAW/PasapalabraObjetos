@@ -19,3 +19,4 @@ It chooses randomly a bundle for each question, so the result will be a mix of q
 If you answer correclty or not, the game will mark the question as answered and it won't ask that question again.
 If you skip the question writing "Pasapalabra" as the answer, the game will save it to ask it later.
 The game won't stop until you answer all the questions and after that it will give you the resuls.
+If you answer a question incorrectly, it will tell you what was the correct answer.
